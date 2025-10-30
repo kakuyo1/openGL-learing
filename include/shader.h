@@ -18,4 +18,7 @@ public:
 	void setUniformInt(const std::string& name, int value) const;
 	void setUniformFloat(const std::string& name, float value) const;
 	void setUniformMat4(const std::string& name, const float* value) const;
+	void setUniformVec3(const std::string& name, float v0, float v1, float v2) const;
+	void setUniformVec3(const std::string& name, const float* value) const;
+	void setUniformMat3(const std::string& name, const float* value) const;
 };

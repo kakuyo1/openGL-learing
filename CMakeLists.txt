@@ -21,7 +21,7 @@ file(GLOB_RECURSE sources CONFIGURE_DEPENDS src/*.cpp)
 file(GLOB_RECURSE headers CONFIGURE_DEPENDS include/*.h include/*.hpp)
 
 # 添加可执行文件
-add_executable(${PROJECT_NAME} ${sources} ${headers} "include/shader.h" "src/shader.cpp" "include/camera.h" "src/camera.cpp")
+add_executable(${PROJECT_NAME} ${sources} ${headers} "include/shader.h" "src/shader.cpp" "include/camera.h" "src/camera.cpp" "include/config.h")
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 
 # 添加子模块

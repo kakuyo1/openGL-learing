@@ -112,3 +112,30 @@ void Shader::setUniformMat4(const std::string& name, const float* value) const
 	}
 	glUniformMatrix4fv(location, 1, GL_FALSE, value);
 }
+
+void Shader::setUniformVec3(const std::string& name, float v0, float v1, float v2) const
+{
+	int location = glGetUniformLocation(ID, name.c_str());
+	if (location == -1) {
+		std::print("WARNING::UNIFORM::NOT_FOUND: {}\n", name);
+	}
+	glUniform3f(location, v0, v1, v2);
+}
+
+void Shader::setUniformVec3(const std::string& name, const float* value) const
+{
+	int location = glGetUniformLocation(ID, name.c_str());
+	if (location == -1) {
+		std::print("WARNING::UNIFORM::NOT_FOUND: {}\n", name);
+	}
+	glUniform3fv(location, 1, value);
+}
+
+void Shader::setUniformMat3(const std::string& name, const float* value) const
+{
+	int location = glGetUniformLocation(ID, name.c_str());
+	if (location == -1) {
+		std::print("WARNING::UNIFORM::NOT_FOUND: {}\n", name);
+	}
+	glUniformMatrix3fv(location, 1, GL_FALSE, value);
+}

@@ -6,6 +6,7 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/include/*.h")
 set(OLD_GLOB
   "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/include/camera.h"
+  "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/include/config.h"
   "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/include/shader.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
