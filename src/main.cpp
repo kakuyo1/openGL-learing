@@ -73,21 +73,20 @@ int main() {
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	/* CPU-> GPU copy */ 
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices6), vertices6, GL_STATIC_DRAW); 
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices7), vertices7, GL_STATIC_DRAW); 
 	//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 	/* attribute pointer setting*/
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); // pos
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float))); // normal
-	//glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float))); // color
-	//glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float))); // texture coord
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0); // pos
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float))); // normal
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float))); // tex coord
 
 	glEnableVertexAttribArray(0);
 	glEnableVertexAttribArray(1);
-	//glEnableVertexAttribArray(2);
+	glEnableVertexAttribArray(2);
 
 	glBindVertexArray(lightingCubeVAO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); // pos(ignore the normal from VBO)
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0); // pos(ignore the normal from VBO)
 	glEnableVertexAttribArray(0);
 
 	/* unbind VBO/VAO, do not unbind EBO */
@@ -96,18 +95,17 @@ int main() {
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0); // DONT'T NEED EBO CURRENTLY
 
 	// shader program
-	//Shader shaderProgram(Paths::VERTEX_SHADER_PATH.data(), Paths::FRAGMENT_SHADER_PATH.data());
 	Shader cubeShaderProgram(Paths::CUBE_VERTEX_SHADER_PATH.data(), Paths::CUBE_FRAGMENT_SHADER_PATH.data());
 	Shader lightCubeShaderProgram(Paths::LIGHT_CUBE_VERTEX_SHADER_PATH.data(), Paths::LIGHT_CUBE_FRAGMENT_SHADER_PATH.data());
 	/* texture */
-	//unsigned int texture1, texture2;
-	//glGenTextures(1, &texture1);
-	//glBindTexture(GL_TEXTURE_2D, texture1); 
-	//load_texture(Paths::WALL_TEXTURE); // texture loading
+	unsigned int diffuseMap, specularMap;
+	glGenTextures(1, &diffuseMap);
+	glBindTexture(GL_TEXTURE_2D, diffuseMap);
+	load_texture(Paths::CONTAINER_TEXTURE); // texture loading
 
-	//glGenTextures(1, &texture2);
-	//glBindTexture(GL_TEXTURE_2D, texture2);
-	//load_texture(Paths::SMILE_TEXTURE); // texture loading
+	glGenTextures(1, &specularMap);
+	glBindTexture(GL_TEXTURE_2D, specularMap);
+	load_texture(Paths::CONTAINER_SPECULAR_TEXTURE); // texture loading
 	
 	/* tell opengl for each sampler to which texture unit it belongs to (only has to be done once) */
 	//shaderProgram.useProgram();
@@ -140,27 +138,20 @@ int main() {
 		//shaderProgram.setUniformFloat("mixValue", mixValue);
 		//shaderProgram.useProgram();
 
-		//glActiveTexture(GL_TEXTURE0);
-		//glBindTexture(GL_TEXTURE_2D, texture1);
-		//glActiveTexture(GL_TEXTURE1);
-		//glBindTexture(GL_TEXTURE_2D, texture2);
+		glActiveTexture(GL_TEXTURE0);
+		glBindTexture(GL_TEXTURE_2D, diffuseMap);
+		glActiveTexture(GL_TEXTURE1);
+		glBindTexture(GL_TEXTURE_2D, specularMap);
 		cubeShaderProgram.useProgram();
 		cubeShaderProgram.setUniformVec3("lightPos", glm::value_ptr(lightPos));
 		cubeShaderProgram.setUniformVec3("viewPos", glm::value_ptr(camera.Position));
-		cubeShaderProgram.setUniformVec3("material.ambient", 1.0f, 0.5f, 0.31f);
-		cubeShaderProgram.setUniformVec3("material.diffuse", 1.0f, 0.5f, 0.31f);
+		cubeShaderProgram.setUniformInt("material.diffuse", 0); // bind texture unit 0
+		cubeShaderProgram.setUniformInt("material.specular", 1); // bind texture unit 1
 		cubeShaderProgram.setUniformVec3("material.specular", 0.5f, 0.5f, 0.5f);
-		cubeShaderProgram.setUniformFloat("material.shininess", 32.0f);
+		cubeShaderProgram.setUniformFloat("material.shininess", 64.0f);
+		cubeShaderProgram.setUniformVec3("light.ambient", 0.2f, 0.2f, 0.2f);
+		cubeShaderProgram.setUniformVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
 		cubeShaderProgram.setUniformVec3("light.specular", 1.0f, 1.0f, 1.0f);
-		glm::vec3 lightColor;
-		lightColor.x = sin(glfwGetTime() * 2.0f);
-		lightColor.y = sin(glfwGetTime() * 0.7f);
-		lightColor.z = sin(glfwGetTime() * 1.3f);
-		glm::vec3 diffuseColor = lightColor * glm::vec3(0.5f);
-		glm::vec3 ambientColor = diffuseColor * glm::vec3(0.2f);
-		cubeShaderProgram.setUniformVec3("light.ambient", glm::value_ptr(ambientColor));
-		cubeShaderProgram.setUniformVec3("light.diffuse", glm::value_ptr(diffuseColor));
-
 		/* projection matrix*/
 		glm::mat4 projection = glm::mat4(1.0f);
 		projection = glm::perspective(glm::radians(camera.Zoom), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 100.0f);
