@@ -145,10 +145,21 @@ int main() {
 		//glActiveTexture(GL_TEXTURE1);
 		//glBindTexture(GL_TEXTURE_2D, texture2);
 		cubeShaderProgram.useProgram();
-		cubeShaderProgram.setUniformVec3("objectColor", 1.0f, 0.5f, 0.31f);
-		cubeShaderProgram.setUniformVec3("lightColor", 1.0f, 1.0f, 1.0f);
 		cubeShaderProgram.setUniformVec3("lightPos", glm::value_ptr(lightPos));
 		cubeShaderProgram.setUniformVec3("viewPos", glm::value_ptr(camera.Position));
+		cubeShaderProgram.setUniformVec3("material.ambient", 1.0f, 0.5f, 0.31f);
+		cubeShaderProgram.setUniformVec3("material.diffuse", 1.0f, 0.5f, 0.31f);
+		cubeShaderProgram.setUniformVec3("material.specular", 0.5f, 0.5f, 0.5f);
+		cubeShaderProgram.setUniformFloat("material.shininess", 32.0f);
+		cubeShaderProgram.setUniformVec3("light.specular", 1.0f, 1.0f, 1.0f);
+		glm::vec3 lightColor;
+		lightColor.x = sin(glfwGetTime() * 2.0f);
+		lightColor.y = sin(glfwGetTime() * 0.7f);
+		lightColor.z = sin(glfwGetTime() * 1.3f);
+		glm::vec3 diffuseColor = lightColor * glm::vec3(0.5f);
+		glm::vec3 ambientColor = diffuseColor * glm::vec3(0.2f);
+		cubeShaderProgram.setUniformVec3("light.ambient", glm::value_ptr(ambientColor));
+		cubeShaderProgram.setUniformVec3("light.diffuse", glm::value_ptr(diffuseColor));
 
 		/* projection matrix*/
 		glm::mat4 projection = glm::mat4(1.0f);
