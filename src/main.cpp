@@ -143,7 +143,10 @@ int main() {
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, specularMap);
 		cubeShaderProgram.useProgram();
-		cubeShaderProgram.setUniformVec3("light.position", glm::value_ptr(lightPos));
+		cubeShaderProgram.setUniformVec3("light.position", glm::value_ptr(camera.Position));
+		cubeShaderProgram.setUniformVec3("light.direction", glm::value_ptr(camera.Front));
+		cubeShaderProgram.setUniformFloat("light.innerCutOff", glm::cos(glm::radians(12.5f)));
+		cubeShaderProgram.setUniformFloat("light.outerCutOff", glm::cos(glm::radians(17.5f)));
 		cubeShaderProgram.setUniformVec3("viewPos", glm::value_ptr(camera.Position));
 		cubeShaderProgram.setUniformInt("material.diffuse", 0); // bind texture unit 0
 		cubeShaderProgram.setUniformInt("material.specular", 1); // bind texture unit 1
