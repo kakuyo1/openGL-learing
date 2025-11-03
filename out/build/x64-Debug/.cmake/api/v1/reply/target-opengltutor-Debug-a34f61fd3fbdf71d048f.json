@@ -169,12 +169,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 5,
-			"id" : "glad::@74ca6b3581f0d7366b1f"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "glfw::@12507ebf64a5258d241e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "glad::@74ca6b3581f0d7366b1f"
 		}
 	],
 	"id" : "opengltutor::@6890427a1f51a3e7e1df",
