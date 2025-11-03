@@ -131,8 +131,8 @@ int main() {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		// change the light's position values over time (can be done anywhere in the render loop actually, but try to do it at least before using the light source positions)
-		//lightPos.x = 1.0f + sin(glfwGetTime()) * 2.0f; // range from -1 to 3
-		//lightPos.y = sin(glfwGetTime() / 2.0f) * 1.0f; // range from -1 to 1
+		lightPos.x = 1.0f + sin(glfwGetTime()) * 2.0f; // range from -1 to 3
+		lightPos.y = sin(glfwGetTime() / 2.0f) * 1.0f; // range from -1 to 1
 
 		/* activate */
 		//shaderProgram.setUniformFloat("mixValue", mixValue);
@@ -143,7 +143,7 @@ int main() {
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, specularMap);
 		cubeShaderProgram.useProgram();
-		//cubeShaderProgram.setUniformVec3("lightPos", glm::value_ptr(lightPos));
+		cubeShaderProgram.setUniformVec3("light.position", glm::value_ptr(lightPos));
 		cubeShaderProgram.setUniformVec3("viewPos", glm::value_ptr(camera.Position));
 		cubeShaderProgram.setUniformInt("material.diffuse", 0); // bind texture unit 0
 		cubeShaderProgram.setUniformInt("material.specular", 1); // bind texture unit 1
@@ -152,7 +152,10 @@ int main() {
 		cubeShaderProgram.setUniformVec3("light.ambient", 0.2f, 0.2f, 0.2f);
 		cubeShaderProgram.setUniformVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
 		cubeShaderProgram.setUniformVec3("light.specular", 1.0f, 1.0f, 1.0f);
-		cubeShaderProgram.setUniformVec3("light.direction", -0.2f, -1.0f, -0.3f);
+		//cubeShaderProgram.setUniformVec3("light.direction", -0.2f, -1.0f, -0.3f);
+		cubeShaderProgram.setUniformFloat("light.constant", 1.0f);
+		cubeShaderProgram.setUniformFloat("light.linear", 0.09f);
+		cubeShaderProgram.setUniformFloat("light.quadratic", 0.032f);
 
 		/* projection matrix*/
 		glm::mat4 projection = glm::mat4(1.0f);
@@ -165,12 +168,6 @@ int main() {
 		//shaderProgram.setUniformMat4("view", glm::value_ptr(view));
 		cubeShaderProgram.setUniformMat4("view", glm::value_ptr(view));
 
-		/* model matrix */
-		//glm::mat4 model = glm::mat4(1.0f);
-		//cubeShaderProgram.setUniformMat4("model", glm::value_ptr(model));
-		/* normal matrix */
-		//glm::mat3 normalMatrix = glm::mat3(glm::transpose(glm::inverse(model)));
-		//cubeShaderProgram.setUniformMat3("normalMatrix", glm::value_ptr(normalMatrix));
 		/* draw cube */
 		glBindVertexArray(cubeVAO);
 
@@ -191,30 +188,17 @@ int main() {
 
 		/* draw light cube */
 
-		//lightCubeShaderProgram.useProgram();
-		//lightCubeShaderProgram.setUniformMat4("projection", glm::value_ptr(projection));
-		//lightCubeShaderProgram.setUniformMat4("view", glm::value_ptr(view));
-		//model = glm::mat4(1.0f);
-		//model = glm::translate(model, lightPos);
-		//model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
-		//lightCubeShaderProgram.setUniformMat4("model", glm::value_ptr(model));
-		//glBindVertexArray(lightingCubeVAO);
-		//glDrawArrays(GL_TRIANGLES, 0, 36);
-
-		//for (unsigned int i = 0; i < 10; ++i) {
-		//	/* model matrix */
-		//	glm::mat4 model = glm::mat4(1.0f);
-		//	model = glm::translate(model, cubePositions[i]);
-		//	float angle = 20.0f * (i + 1);
-		//	model = glm::rotate(model, (float)glfwGetTime() * glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
-		//	//shaderProgram.setUniformMat4("model", glm::value_ptr(model));
-		//	lightCubeShaderProgram.setUniformMat4("model", glm::value_ptr(model));
-		//	/* normal matrix */
-		//	glm::mat3 normalMatrix = glm::mat3(glm::transpose(glm::inverse(model)));
-		//	lightCubeShaderProgram.setUniformMat3("normalMatrix", glm::value_ptr(normalMatrix));
-		//	glDrawArrays(GL_TRIANGLES, 0, 36);
-		//}
-		//glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+		lightCubeShaderProgram.useProgram();
+		lightCubeShaderProgram.setUniformMat4("projection", glm::value_ptr(projection));
+		lightCubeShaderProgram.setUniformMat4("view", glm::value_ptr(view));
+		/* model matrix */
+		glm::mat4 model = glm::mat4(1.0f);
+		model = glm::mat4(1.0f);
+		model = glm::translate(model, lightPos);
+		model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
+		lightCubeShaderProgram.setUniformMat4("model", glm::value_ptr(model));
+		glBindVertexArray(lightingCubeVAO);
+		glDrawArrays(GL_TRIANGLES, 0, 36);
 		
 		glfwSwapBuffers(window);
 		glfwPollEvents();
