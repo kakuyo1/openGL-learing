@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o82mvl"
-      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o82mvl"
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3q6g5t"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3q6g5t"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -123,11 +123,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o82mvl'
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3q6g5t'
         
-        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c57b2
-        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c57b2.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_c57b2.dir\\ /FS -c "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c57b2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c57b2.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_c57b2.exe /implib:cmTC_c57b2.lib /pdb:cmTC_c57b2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_564f0
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_564f0.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_564f0.dir\\ /FS -c "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_564f0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_564f0.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_564f0.exe /implib:cmTC_564f0.lib /pdb:cmTC_564f0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -155,8 +155,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ohfruj"
-      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ohfruj"
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vr0lav"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vr0lav"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -170,11 +170,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ohfruj'
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vr0lav'
         
-        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_38952
-        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest /showIncludes /FoCMakeFiles\\cmTC_38952.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_38952.dir\\ /FS -c "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_38952.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_38952.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_38952.exe /implib:cmTC_38952.lib /pdb:cmTC_38952.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9c931
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest /showIncludes /FoCMakeFiles\\cmTC_9c931.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_9c931.dir\\ /FS -c "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9c931.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9c931.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_9c931.exe /implib:cmTC_9c931.lib /pdb:cmTC_9c931.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -205,8 +205,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjhpmg"
-      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjhpmg"
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m1fic8"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m1fic8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -220,13 +220,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjhpmg'
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m1fic8'
         
-        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d5ae3
-        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d5ae3.dir\\src.c.obj /FdCMakeFiles\\cmTC_d5ae3.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bjhpmg\\src.c
-        FAILED: CMakeFiles/cmTC_d5ae3.dir/src.c.obj 
-        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d5ae3.dir\\src.c.obj /FdCMakeFiles\\cmTC_d5ae3.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bjhpmg\\src.c
-        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bjhpmg\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1a214
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1a214.dir\\src.c.obj /FdCMakeFiles\\cmTC_1a214.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m1fic8\\src.c
+        FAILED: CMakeFiles/cmTC_1a214.dir/src.c.obj 
+        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1a214.dir\\src.c.obj /FdCMakeFiles\\cmTC_1a214.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m1fic8\\src.c
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m1fic8\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -241,8 +241,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3y6wyr"
-      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3y6wyr"
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t3zqn4"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t3zqn4"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -256,14 +256,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3y6wyr'
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t3zqn4'
         
-        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4cd89
-        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4cd89.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4cd89.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3y6wyr\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_4cd89.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4cd89.dir\\CheckFunctionExists.c.obj  /out:cmTC_4cd89.exe /implib:cmTC_4cd89.lib /pdb:cmTC_4cd89.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_4cd89.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_4cd89.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4cd89.dir\\CheckFunctionExists.c.obj  /out:cmTC_4cd89.exe /implib:cmTC_4cd89.lib /pdb:cmTC_4cd89.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4cd89.dir\\CheckFunctionExists.c.obj /out:cmTC_4cd89.exe /implib:cmTC_4cd89.lib /pdb:cmTC_4cd89.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4cd89.dir/intermediate.manifest CMakeFiles\\cmTC_4cd89.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9fbf1
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9fbf1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_9fbf1.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-t3zqn4\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9fbf1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9fbf1.dir\\CheckFunctionExists.c.obj  /out:cmTC_9fbf1.exe /implib:cmTC_9fbf1.lib /pdb:cmTC_9fbf1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_9fbf1.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9fbf1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9fbf1.dir\\CheckFunctionExists.c.obj  /out:cmTC_9fbf1.exe /implib:cmTC_9fbf1.lib /pdb:cmTC_9fbf1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9fbf1.dir\\CheckFunctionExists.c.obj /out:cmTC_9fbf1.exe /implib:cmTC_9fbf1.lib /pdb:cmTC_9fbf1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9fbf1.dir/intermediate.manifest CMakeFiles\\cmTC_9fbf1.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -279,8 +279,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oxquk1"
-      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oxquk1"
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ox3l2f"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ox3l2f"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -294,16 +294,393 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oxquk1'
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ox3l2f'
         
-        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_116e7
-        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_116e7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_116e7.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-oxquk1\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_116e7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_116e7.dir\\CheckFunctionExists.c.obj  /out:cmTC_116e7.exe /implib:cmTC_116e7.lib /pdb:cmTC_116e7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_116e7.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_116e7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_116e7.dir\\CheckFunctionExists.c.obj  /out:cmTC_116e7.exe /implib:cmTC_116e7.lib /pdb:cmTC_116e7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_116e7.dir\\CheckFunctionExists.c.obj /out:cmTC_116e7.exe /implib:cmTC_116e7.lib /pdb:cmTC_116e7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_116e7.dir/intermediate.manifest CMakeFiles\\cmTC_116e7.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0b14e
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0b14e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0b14e.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ox3l2f\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0b14e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b14e.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b14e.exe /implib:cmTC_0b14e.lib /pdb:cmTC_0b14e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_0b14e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0b14e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b14e.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b14e.exe /implib:cmTC_0b14e.lib /pdb:cmTC_0b14e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0b14e.dir\\CheckFunctionExists.c.obj /out:cmTC_0b14e.exe /implib:cmTC_0b14e.lib /pdb:cmTC_0b14e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0b14e.dir/intermediate.manifest CMakeFiles\\cmTC_0b14e.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yqrxkx"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yqrxkx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yqrxkx'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9690b
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9690b.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_9690b.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yqrxkx\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9690b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9690b.dir\\CheckIncludeFile.c.obj  /out:cmTC_9690b.exe /implib:cmTC_9690b.lib /pdb:cmTC_9690b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ilqbqa"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ilqbqa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ilqbqa'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7688d
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7688d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7688d.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ilqbqa\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_7688d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7688d.dir\\CheckIncludeFile.c.obj  /out:cmTC_7688d.exe /implib:cmTC_7688d.lib /pdb:cmTC_7688d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r8a4ui"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r8a4ui"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r8a4ui'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7b450
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7b450.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7b450.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-r8a4ui\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_7b450.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7b450.dir\\CheckIncludeFile.c.obj  /out:cmTC_7b450.exe /implib:cmTC_7b450.lib /pdb:cmTC_7b450.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jivm9a"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jivm9a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jivm9a'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4f48f
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4f48f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4f48f.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jivm9a\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_4f48f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4f48f.dir\\CheckIncludeFile.c.obj  /out:cmTC_4f48f.exe /implib:cmTC_4f48f.lib /pdb:cmTC_4f48f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tqexhv"
+  -
+ binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tqexhv"
+    cmakeVariables:
+    kind: "try_compile-v1"
+2 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    backtrace:
+LE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+xtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+g/vcpkg"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o86kgu"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o86kgu"
+    cmakeVariables:
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tqexhv'
+        
+E_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+C_0b25d
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0b25d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0b25d.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tqexhv\\CheckIncludeFile.c
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0b25d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b25d.dir\\CheckIncludeFile.c.obj  /out:cmTC_0b25d.exe /implib:cmTC_0b25d.lib /pdb:cmTC_0b25d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+      stdout: |
+        
+      exitCode: 0
+ 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o86kgu'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8c955
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8c955.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8c955.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-o86kgu\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_8c955.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8c955.dir\\CheckIncludeFile.c.obj  /out:cmTC_8c955.exe /implib:cmTC_8c955.lib /pdb:cmTC_8c955.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "assimp/contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-47i309"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-47i309"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-47i309'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cd743
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cd743.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_cd743.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c
+        FAILED: CMakeFiles/cmTC_cd743.dir/OFF64_T.c.obj 
+        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cd743.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_cd743.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c(30): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c(31): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c(32): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-47i309\\OFF64_T.c(33): error C2065: “off64_t”: 未声明的标识符
+    kind: "try_compile-v1"
+: subcommand failed.
+        
+      exitCode: 1
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "assimp/contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-64hjdc"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-64hjdc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-64hjdc'
+        
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_736ae
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_736ae.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_736ae.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c
+        FAILED: CMakeFiles/cmTC_736ae.dir/OFF64_T.c.obj 
+        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_736ae.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_736ae.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c(30): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c(31): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c(32): error C2065: “off64_t”: 未声明的标识符
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-64hjdc\\OFF64_T.c(33): error C2065: “off64_t”: 未声明的标识符
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+S 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "Looking for fseeko"
+MakeLists.txt:64 (check_function_exists)"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ifodht"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ifodht"
+    cmakeVariables:
+rs/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gwhik2"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gwhik2"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+s/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+installed"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+_TRIPLET: "x64-windows"
+      variable: "HAVE_FSEEKO"
+kg/vcpkg"
+      cached: true
+      stdout: |
+HAVE_FSEEKO"
+      cached: true
+      stdout: |
+r: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ifodht'
+        
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gwhik2'
+        
+n Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_271f9
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=fseeko /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_271f9.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_271f9.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ifodht\\CheckFunctionExists.c
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=fseeko /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6dca7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_6dca7.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gwhik2\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_271f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_271f9.dir\\CheckFunctionExists.c.obj  /out:cmTC_271f9.exe /implib:cmTC_271f9.lib /pdb:cmTC_271f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_271f9.exe 
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_6dca7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_6dca7.dir\\CheckFunctionExists.c.obj  /out:cmTC_6dca7.exe /implib:cmTC_6dca7.lib /pdb:cmTC_6dca7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_6dca7.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_271f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_271f9.dir\\CheckFunctionExists.c.obj  /out:cmTC_271f9.exe /implib:cmTC_271f9.lib /pdb:cmTC_271f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\VS 2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_6dca7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_6dca7.dir\\CheckFunctionExists.c.obj  /out:cmTC_6dca7.exe /implib:cmTC_6dca7.lib /pdb:cmTC_6dca7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_271f9.dir\\CheckFunctionExists.c.obj /out:cmTC_271f9.exe /implib:cmTC_271f9.lib /pdb:cmTC_271f9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_271f9.dir/intermediate.manifest CMakeFiles\\cmTC_271f9.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号\x0d
+        LINK Pass 1: command "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6dca7.dir\\CheckFunctionExists.c.obj /out:cmTC_6dca7.exe /implib:cmTC_6dca7.lib /pdb:cmTC_6dca7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6dca7.dir/intermediate.manifest CMakeFiles\\cmTC_6dca7.dir/manifest.res" failed (exit code 1120) with the following output:
+        cmTC_271f9.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+ 无法解析的外部符号 fseeko，函数 main 中引用了该符号\x0d
+        cmTC_6dca7.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y7tm6c"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y7tm6c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y7tm6c'
+        
+  -
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_49ce2
+    kind: "try_compile-v1"
+    backtrace:
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_49ce2.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_49ce2.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y7tm6c\\CheckIncludeFile.c
+      - "assimp/contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+        FAILED: CMakeFiles/cmTC_49ce2.dir/CheckIncludeFile.c.obj 
+    directories:
+      source: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3xybnc"
+      binary: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3xybnc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.3      CMAKE_MODULE_PATH: "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/assimp/cmake-modules"
+MakeFiles\\cmTC_49ce2.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_49ce2.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y7tm6c\\CheckIncludeFile.c
+      VCPKG_INSTALLED_DIR: "B:/vcpkg/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/vcpkg/vcpkg"
+nGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y7tm6c\\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+    buildResult:
+        ninja: build stopped: subcommand failed.
+      cached: true
+        
+ut: |
+        Change Dir: 'C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3xybnc'
+      exitCode: 1
+        Run Build Command(s): "D:/VS 2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_01e33
+        [1/2] "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_01e33.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_01e33.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3xybnc\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_01e33.dir/CheckIncludeFile.c.obj 
+        "D:\\VS 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_01e33.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_01e33.dir\\ /FS -c C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3xybnc\\CheckIncludeFile.c
+        C:\\Users\\wdmzs\\Desktop\\QT\\openGL\\openGL-learning\\opengltutor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3xybnc\\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
 ...

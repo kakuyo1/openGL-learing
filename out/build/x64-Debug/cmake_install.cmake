@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/glm/cmake_install.cmake")
   include("C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/glfw/cmake_install.cmake")
   include("C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/glad/cmake_install.cmake")
+  include("C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug/assimp/cmake_install.cmake")
 
 endif()
 

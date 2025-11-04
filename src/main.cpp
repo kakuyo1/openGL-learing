@@ -5,7 +5,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "shader.h"
-#include <filesystem>
 #include "config.h"
 #include "B:/Graphics-Learning/stb-lib/stb/stb_image.h"
 
@@ -29,7 +28,7 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // 设置OpenGL配置文件为核心模式(Core-profile)
 
 	/* GLFWwindow */
-	GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "LearnOpenGL", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow((int)SCREEN_WIDTH, (int)SCREEN_HEIGHT, "LearnOpenGL", NULL, NULL);
 	if (window == NULL) {
 		std::print("Failed to create GLFW window.\n");
 		glfwTerminate();
@@ -97,6 +96,7 @@ int main() {
 	// shader program
 	Shader cubeShaderProgram(Paths::CUBE_VERTEX_SHADER_PATH.data(), Paths::CUBE_FRAGMENT_SHADER_PATH.data());
 	Shader lightCubeShaderProgram(Paths::LIGHT_CUBE_VERTEX_SHADER_PATH.data(), Paths::LIGHT_CUBE_FRAGMENT_SHADER_PATH.data());
+	Shader modelShaderProgram(Paths::MODEL_VERTEX_SHADER_PATH.data(), Paths::MODEL_FRAGMENT_SHADER_PATH.data());
 	/* texture */
 	unsigned int diffuseMap, specularMap;
 	glGenTextures(1, &diffuseMap);
@@ -107,6 +107,9 @@ int main() {
 	glBindTexture(GL_TEXTURE_2D, specularMap);
 	load_texture(Paths::CONTAINER_SPECULAR_TEXTURE); // texture loading
 	
+	/* model */
+	Model ourModel(Paths::BACKPACK_MODEL.data());
+
 	/* tell opengl for each sampler to which texture unit it belongs to (only has to be done once) */
 	//shaderProgram.useProgram();
 	//shaderProgram.setUniformInt("texture1", 0);
@@ -239,6 +242,17 @@ int main() {
 			glBindVertexArray(lightingCubeVAO);
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 		}
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+		/* render the loaded model */
+		modelShaderProgram.useProgram();
+		modelShaderProgram.setUniformMat4("projection", glm::value_ptr(projection));
+		modelShaderProgram.setUniformMat4("view", glm::value_ptr(view));
+		glm::mat4 model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -4.0f));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		modelShaderProgram.setUniformMat4("model", glm::value_ptr(model));
+		ourModel.Draw(modelShaderProgram);
 		
 		glfwSwapBuffers(window);
 		glfwPollEvents();

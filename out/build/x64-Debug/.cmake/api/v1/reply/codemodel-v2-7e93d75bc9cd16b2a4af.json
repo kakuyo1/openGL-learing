@@ -1,0 +1,364 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "glm",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-glm-Debug-ab70d989331aa8f80f5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "glm",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "glm/glm",
+					"jsonFile" : "directory-glm.glm-Debug-40ab1eadfbf0266e4336.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "glm/glm",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-glfw-Debug-cf58ed5279965a2ab5ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "glfw"
+				},
+				{
+					"build" : "glfw/src",
+					"jsonFile" : "directory-glfw.src-Debug-05cc6ab1369fc8fc5a1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "glfw/src",
+					"targetIndexes" : 
+					[
+						3,
+						8
+					]
+				},
+				{
+					"build" : "glad",
+					"jsonFile" : "directory-glad-Debug-6aad498c2c8cd39e25f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glad",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "assimp",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-assimp-Debug-21ccbaf9270204b85908.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "assimp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "assimp/contrib/zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-assimp.contrib.zlib-Debug-3ed1d5d5486882958076.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "assimp/contrib/zlib",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-assimp.code-Debug-104f588068d33fd4f9f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "assimp/code",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "assimp/test",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-assimp.test-Debug-bc59979f7c883693ba4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "assimp/test",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "assimp/test/headercheck",
+					"jsonFile" : "directory-assimp.test.headercheck-Debug-6e92f67b401ec90bf0aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "assimp/test/headercheck"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						5
+					],
+					"name" : "opengltutor",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						6,
+						8,
+						9,
+						10
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "zlib",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "UpdateAssimpLibsDebugSymbolsAndDLLs::@ada87d56e2bf9b28f774",
+					"jsonFile" : "target-UpdateAssimpLibsDebugSymbolsAndDLLs-Debug-6c04ce1e54220f510a6c.json",
+					"name" : "UpdateAssimpLibsDebugSymbolsAndDLLs",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "assimp::@929d3bc269d6d0387b46",
+					"jsonFile" : "target-assimp-Debug-b915cdaa597bd9d98e7a.json",
+					"name" : "assimp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-Debug-1dd35b728e0a8cff3395.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@12507ebf64a5258d241e",
+					"jsonFile" : "target-glfw-Debug-0ff1e4e22ef7db65bc20.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glm_shared::@e7e6a059f495982a7e13",
+					"jsonFile" : "target-glm_shared-Debug-8b4215b33e2e175885d8.json",
+					"name" : "glm_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengltutor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengltutor-Debug-8d4078599f439def83a2.json",
+					"name" : "opengltutor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@fa0cdaa9020ff8f602ac",
+					"jsonFile" : "target-uninstall-Debug-6d114b8ab79591e41b7e.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "unit::@683d70c180806ba64da5",
+					"jsonFile" : "target-unit-Debug-69d91c0ab68b88b433ac.json",
+					"name" : "unit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@12507ebf64a5258d241e",
+					"jsonFile" : "target-update_mappings-Debug-efa7c2c548dc0f273ccf.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "zlibstatic::@dcd186d5736fb5d986df",
+					"jsonFile" : "target-zlibstatic-Debug-2f9b332f395645a1fcff.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor/out/build/x64-Debug",
+		"source" : "C:/Users/wdmzs/Desktop/QT/openGL/openGL-learning/opengltutor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

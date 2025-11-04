@@ -1,7 +1,9 @@
+#pragma once
 #include <string_view>
 #include <glm/glm.hpp>
+#include <string>
 #include "camera.h"
-
+#include "model.h"
 namespace Paths {
 	// Shader paths
 	constexpr std::string_view VERTEX_SHADER_PATH = "assets/shader.vert";
@@ -10,12 +12,17 @@ namespace Paths {
 	constexpr std::string_view CUBE_FRAGMENT_SHADER_PATH = "assets/cubeShader.frag";
 	constexpr std::string_view LIGHT_CUBE_VERTEX_SHADER_PATH = "assets/lightCubeShader.vert";
 	constexpr std::string_view LIGHT_CUBE_FRAGMENT_SHADER_PATH = "assets/lightCubeShader.frag";
+	constexpr std::string_view MODEL_VERTEX_SHADER_PATH = "assets/backpack.vert";
+	constexpr std::string_view MODEL_FRAGMENT_SHADER_PATH = "assets/backpack.frag";
 
 	// Texture paths
 	constexpr std::string_view SMILE_TEXTURE = "static/smile.png";
 	constexpr std::string_view WALL_TEXTURE = "static/wall.jpg";
 	constexpr std::string_view CONTAINER_TEXTURE = "static/container2.png";
 	constexpr std::string_view CONTAINER_SPECULAR_TEXTURE = "static/container2_specular.png";
+
+	// model
+	constexpr std::string_view BACKPACK_MODEL = "static/backpack/backpack.obj";
 }
 
 float vertices[] = {
